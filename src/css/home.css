@@ -1,0 +1,84 @@
+body{
+  padding-top: 120px;
+  padding-bottom:120px;
+}
+
+.header{
+  position:fixed;
+  width:100%;
+  background:#fff;
+  z-index:15000 !important;
+  padding:15px 20px;
+  box-shadow:1px 2px 35px rgba(17,23,21,.1);
+  top:0;
+}
+
+.title-header{
+  display: inline-block;
+  font-size:20px;
+  font-family:'Poppins', sans-serif;
+  margin-bottom:0px !important;
+}
+
+.icon-cart-header{
+  display:inline-block;
+  float: right;
+  margin-top:4px;
+}
+
+.card-ecommerce{
+  height:100%;
+  position:relative;
+  padding:15px;
+  box-shadow:1px 5px 15px rgba(17,23,21,.16);
+  border-radius:6px;
+}
+
+.img{
+  width:100%;
+}
+
+.price{
+  font-size:30px;
+  font-weight:bold;
+  font-family:'Poppins', sans-serif;
+  text-align: center;
+  margin-top:10px;
+}
+
+.name{
+  font-size:18px;
+  color:#222;
+  text-align: center;
+  font-family:'Poppins', sans-serif;
+}
+
+.btn{
+  background:#EDE031;
+  width:100%;
+  margin-top:10px;
+  font-family:'Poppins', sans-serif;
+  box-shadow:1px 5px 15px rgba(17,23,21,.16);
+  padding:7px 0px;
+  transition:.5s;
+  border:1px solid #EDE031;
+}
+
+.btn:hover{
+  background:transparent;
+  border:1px solid #EDE031;
+  transition:.5s;
+}
+
+.icon-favorites-card{
+  position: absolute;
+    right: 0;
+    top: 0;
+    margin: 13px;
+    color: #675D5D;
+    background: #fff;
+    box-shadow: 1px 10px 15px rgb(17 23 21 / 16%);
+    padding: 10px;
+    border-radius: 200px;
+    transition: .5s;
+}
